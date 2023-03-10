@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: rgb(201, 223, 233);
+}
+
+.mylink {
+  text-decoration: none !important;
+  color: white;
+  font-size: 20px;
+  padding: 15px;
+}
+
+.main-title {
+  text-align: center;
+  padding: 20px;
+}
+
+.user-list {
+  /* background-color: rgb(206, 206, 207); */
+  padding: 30px;
+}
+
+.user-list-title {
+  text-align: center;
+  color: rgb(3, 3, 82);
+}
+
+.user-list-content {
+  padding: 20px;
+  text-align: center;
+}
+
+.user-list-content li {
+  list-style: none;
+  /* text-decoration: none; */
+}
+
+.not-found {
+  background-color: rgba(245, 203, 203, 0.3);
+  border: 1px solid rgb(3, 3, 82);
+  border-radius: 10px;
+  padding: 20px;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+}
+
+.not-found h1 {
+  text-align: center;
+  padding: 20px;
+  color: red;
+}
+.not-found h2 {
+  text-align: center;
+  padding: 20px;
+}
+.not-found p {
+  text-align: center;
+  padding: 20px;
+}
